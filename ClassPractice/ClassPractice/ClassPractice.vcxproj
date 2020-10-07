@@ -24,6 +24,7 @@
     <ProjectGuid>{605e7848-2834-4299-b6ed-a74ee7353897}</ProjectGuid>
     <RootNamespace>ClassPractice</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ClassPractice</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,6 +141,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ClassPractice.cpp" />
+    <ClCompile Include="Unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Unit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
