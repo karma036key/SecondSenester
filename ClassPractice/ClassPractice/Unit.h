@@ -4,7 +4,7 @@
 
 class Unit
 {
-public:
+private:
     int m_hp;
     int m_str;
     int m_mag;
@@ -17,6 +17,7 @@ public:
 public:
     Unit();
     ~Unit();
+    void PrintStatus();
 };
 
 #endif // #ifndef UNIT_H
