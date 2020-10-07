@@ -1,16 +1,18 @@
 #include "Unit.h"
 #include "Common.h"
+#include "Definition.h"
 
 Unit::Unit()
 {
-    m_hp = 0;
-    m_str = 0;
-    m_mag = 0;
-    m_tec = 0;
-    m_spd = 0;
-    m_def = 0;
-    m_luc = 0;
-    m_mde = 0;
+ 
+    status._hp = 0;
+    status._str = 0;
+    status._mag = 0;
+    status._tec = 0;
+    status._spd = 0;
+    status._def = 0;
+    status._luc = 0;
+    status._mde = 0;
 }
 
 Unit::~Unit()
@@ -20,12 +22,16 @@ Unit::~Unit()
 
 void Unit::PrintStatus()
 {
-    printf(" m_hp  = %d\n", m_hp);
-    printf(" m_str = %d\n", m_hp);
-    printf(" m_mag = %d\n", m_hp);
-    printf(" m_tec = %d\n", m_hp);
-    printf(" m_spd = %d\n", m_hp);
-    printf(" m_def = %d\n", m_hp);
-    printf(" m_luc = %d\n", m_hp);
-    printf(" m_mde = %d\n", m_hp);
+    printf("|============|\n");
+    printf("|ID： 　　　 |\n");
+    printf("|============|\n");
+    printf("| _hp  = %03d|\n", status. _hp);
+    printf("| _str = %03d|\n", status._str);
+    printf("| _mag = %03d|\n", status._mag);
+    printf("| _tec = %03d|\n", status._tec);
+    printf("| _spd = %03d|\n", status._spd);
+    printf("| _def = %03d|\n", status._def);
+    printf("| _luc = %03d|\n", status._luc);
+    printf("| _mde = %03d|\n", status._mde);
+    printf("|============|\n");
 }
