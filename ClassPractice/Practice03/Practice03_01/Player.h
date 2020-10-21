@@ -1,9 +1,10 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-class Player
+#include "Base.h"
+
+class Player : public Base
 {
-	Base::Base();
 public:
 	Player();
 	~Player();

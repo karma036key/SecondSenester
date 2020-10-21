@@ -1,7 +1,7 @@
 #ifndef ENEMY_H
 #define ENEMY_H
-
-class Enemy
+#include "Base.h"
+class Enemy : public Base
 {
 public:
 	Enemy();
