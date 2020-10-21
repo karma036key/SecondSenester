@@ -22,10 +22,13 @@ int main()
 	printf("-------------\n");
 
 	pBase = &player;
+	pBase->CheckHit(10, 10, 20, 30);
 	 PrintStatus("player", pBase);
 
 	pBase = &enemy;
-	 PrintStatus("Enemy", pBase);
+	pBase->CheckHit(10, 10, 20, 30);
+	enemy.CheckHit(10, 10, 20, 30);
+	PrintStatus("Enemy", pBase);
 
 	system("pause");
 	return 0;

@@ -19,4 +19,9 @@ void Enemy::Draw()
 
 }
 
+bool Enemy::CheckHit(int x, int y, int width, int height)
+{
+	printf("Enemy:“–‚½‚è‚Ü‚¹‚ñ‚Å‚µ‚½\n");
+	return false;
+}
 

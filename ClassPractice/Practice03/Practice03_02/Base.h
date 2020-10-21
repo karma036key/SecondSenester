@@ -7,7 +7,12 @@ class Base
 public:
 	Base();
 	virtual ~Base();
+
 public:
+	// 
+	// virtual => âºëzä÷êîâª
+	virtual bool CheckHit(int x, int y, int width, int height);
+
 	void SetHp(int hp);
 	void SetPos(float x, float y);
 	void SetMoveSpeed(float speed);
@@ -24,6 +29,8 @@ private:
 	float m_PosY;
 	float m_MoveSpeed;
 
+	int m_width;  //
+	int m_height; //
 };
 
 
