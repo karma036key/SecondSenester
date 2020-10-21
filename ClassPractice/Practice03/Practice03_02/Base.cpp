@@ -11,11 +11,11 @@ Base::Base()
 
 	m_width  = 10;
 	m_height = 10;
-
+	printf("Base : コンストラクター\n");
 }
 Base::~Base()
 {
-
+	printf("Base : デストラクター\n");
 }
 
 bool Base::CheckHit(int x, int y, int width, int height)

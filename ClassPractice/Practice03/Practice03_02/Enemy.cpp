@@ -4,10 +4,11 @@
 Enemy::Enemy()
 {
 	m_Routine = 0;
+	printf("Enemy : コンストラクター\n");
 }
 Enemy::~Enemy()
 {
-
+	printf("Enemy : デストラクター\n");
 }
 
 void Enemy::Exec()

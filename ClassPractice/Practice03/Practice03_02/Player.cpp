@@ -3,9 +3,12 @@
 
 Player::Player()
 {
+	printf("Player : コンストラクター\n");
+
 }
 Player::~Player()
 {
+	printf("Player : デストラクター\n");
 
 }
 

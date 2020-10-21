@@ -6,8 +6,10 @@ class Base
 {
 public:
 	Base();
-	virtual ~Base();
+	virtual ~Base();	// 必ず virtual を！！
 
+	virtual void Exec() = 0;	//純粋仮想関数（付けると抽象クラスになる）.h に実態なし
+	virtual void Draw() = 0;	// 不可  Base* base = new Base();
 public:
 	// 
 	// virtual => 仮想関数化
