@@ -3,7 +3,7 @@
 
 Enemy::Enemy()
 {
-
+	m_Routine = 0;
 }
 Enemy::~Enemy()
 {

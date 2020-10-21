@@ -11,6 +11,10 @@ public:
 	void Exec();
 	void Draw();
 
+private:
+	// s“®ŠÇ—•Ï”
+	int m_Routine;
+
 };
 
-#endif
+#endif@// ENEMY_H
