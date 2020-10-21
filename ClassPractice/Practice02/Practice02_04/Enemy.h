@@ -23,7 +23,7 @@ public:
 	float GetMoveSpeed();
 
 private:
-	int m_Hp;
+	int	m_Hp;
 	float m_PosX;
 	float m_PosY;
 	float m_MoveSpeed;

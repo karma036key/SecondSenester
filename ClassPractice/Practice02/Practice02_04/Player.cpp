@@ -3,10 +3,10 @@
 
 Player::Player()
 {
-	int		m_Hp		= 0;
-	float	m_PosX		= 0;
-	float	m_PosY		= 0;
-	float	m_MoveSpeed	= 0;
+	m_Hp		= 0;
+	m_PosX		= 0.0;
+	m_PosY		= 0.0;
+	m_MoveSpeed	= 0.0;
 }
 Player::~Player()
 {
