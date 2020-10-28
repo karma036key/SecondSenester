@@ -27,11 +27,6 @@ int Calculator::Mul(int a, int b/*= 2*/)
     return (a * b);
 }
 
-int Calculator::Sud(int a, int b, int c)
-{
-
-}
-
 int main()
 {
     Calculator calc;
