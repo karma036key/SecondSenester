@@ -2,12 +2,16 @@
 #include <string>
 #include "Player.h"
 #include "Enemy.h"
+#include "EnemyManager.h"
 
+//#define PRACTICE03_1021		// 10/21の授業分
+
+// ステータス表示
 void PrintStatus(std::string name, Base* terget);
 
 int main()
 {
-
+#if defined(PRACTICE03_1021)
 	//Player player;
 	//player.SetMoveSpeed(10.0f);
 	Base* player = new Player();
@@ -47,7 +51,32 @@ int main()
 
 	delete enemy;
 	enemy = nullptr;
+#else		// PRACTICE03_1021
+	// 10月28日 に追加した分
+	// EnemyManager の実行テスト
+#endif
 
+	EnemyManager* enemyMng = new EnemyManager();
+	Base* pEnemy = nullptr;
+
+	// ステージ開始時　まとめて初期
+	// 引数はエネミーの種類
+	enemyMng->CreateEnemy(0);
+	enemyMng->CreateEnemy(1);
+	pEnemy = enemyMng->CreateEnemy(2);
+	enemyMng->CreateEnemy(3);
+	enemyMng->CreateEnemy(4);
+	enemyMng->CreateEnemy(4);
+	enemyMng->CreateEnemy(4);
+
+	// 
+	enemyMng->DestoryEnemy(pEnemy);
+
+	// 作成エネミー　各処理
+	enemyMng->Exec();
+	enemyMng->Drow();
+
+	pEnemy = enemyMng->CheckHit(10, 10, 20, 30);
 	system("pause");
 	return 0;
 }

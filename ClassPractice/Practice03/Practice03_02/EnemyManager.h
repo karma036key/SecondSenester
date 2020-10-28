@@ -19,7 +19,7 @@ public:
 	// 描画
 	void Drow();
 	// 当たり判定
-	class Base* ChecHit(int x, int y, int width, int height);
+	class Base* CheckHit(int x, int y, int width, int height);
 
 private:
 	// エネミー管理
