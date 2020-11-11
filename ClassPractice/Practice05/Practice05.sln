@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice05_01_InlinerFuncti
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practice05_02_Reference", "ppractice05_02_Reference\ppractice05_02_Reference.vcxproj", "{F16D2B2B-3982-4C30-B4C2-0F9C0720401C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice05_03_ClassReference", "Practice05_03_ClassReference\Practice05_03_ClassReference.vcxproj", "{A9403003-1010-488A-9E5D-1879B4897D76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F16D2B2B-3982-4C30-B4C2-0F9C0720401C}.Release|x64.Build.0 = Release|x64
 		{F16D2B2B-3982-4C30-B4C2-0F9C0720401C}.Release|x86.ActiveCfg = Release|Win32
 		{F16D2B2B-3982-4C30-B4C2-0F9C0720401C}.Release|x86.Build.0 = Release|Win32
+		{A9403003-1010-488A-9E5D-1879B4897D76}.Debug|x64.ActiveCfg = Debug|x64
+		{A9403003-1010-488A-9E5D-1879B4897D76}.Debug|x64.Build.0 = Debug|x64
+		{A9403003-1010-488A-9E5D-1879B4897D76}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9403003-1010-488A-9E5D-1879B4897D76}.Debug|x86.Build.0 = Debug|Win32
+		{A9403003-1010-488A-9E5D-1879B4897D76}.Release|x64.ActiveCfg = Release|x64
+		{A9403003-1010-488A-9E5D-1879B4897D76}.Release|x64.Build.0 = Release|x64
+		{A9403003-1010-488A-9E5D-1879B4897D76}.Release|x86.ActiveCfg = Release|Win32
+		{A9403003-1010-488A-9E5D-1879B4897D76}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
