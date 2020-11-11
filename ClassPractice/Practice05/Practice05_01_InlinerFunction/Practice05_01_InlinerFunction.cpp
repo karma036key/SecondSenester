@@ -62,7 +62,7 @@ int main()
 	int a = AddSum(1, 3);
 	// コンパイル時、a = (a + b) -> a (1 + 3) に展開される
 
-	LARGE_INTEGER s, e;
+	LARGE_INTEGER s, e,f;
 	QueryPerformanceCounter(&s);
 	unsigned int pow = 0;
 	for (int i = 0; i < 10000; i++)
